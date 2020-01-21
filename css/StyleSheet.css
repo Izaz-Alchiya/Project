@@ -1,0 +1,94 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background-image: url('images/new.png');
+    background-size: cover;
+    
+}
+.title{
+	text-align: center;
+	padding-top: 40px;
+	color: white;
+	text-transform: uppercase;
+	font-size: 30px;
+}
+
+.container{
+	width: 50%;
+	height: 400px;
+	background: #fff;
+	margin: 0 auto;
+	border: 2px solid #fff;
+	box-shadow: 0 15px 40px rgba(0,0,0,.5);
+}
+
+.container .left{
+	float: left;
+	width: 50%;
+	height: 400px;
+	background: url(banklogo.jpg);   
+	background-color:#444;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-sizing: border-box;
+}
+
+#bname{
+	color: white;
+	font-size: 30px;
+	padding-top: 50%;
+	padding-left: 34%;
+}
+
+.container .right{
+	float: right;
+	width: 50%;
+	height: 400px;
+	box-sizing: border-box;
+}
+.formBox
+{
+    width:100%;
+    padding:80px 40px;
+    box-sizing: border-box;
+    height:400px;
+    background:#fff;
+}
+.formBox p
+{
+    color:#333;
+    margin:0;
+    padding: 0;
+    font-weight:bold;
+
+}
+.formBox input
+{
+    width:100%;
+    margin-bottom:20px;
+}
+.formBox input[type="text"],
+.formBox input[type="password"]
+{
+    border:none;
+    border-bottom:2px solid #555;
+    outline:none;   
+    height:40px;
+}
+
+.formBox input[type="text"]:focus,
+.formBox input[type="password"]:focus
+{
+    border-bottom:2px solid;
+}
+
+.formBox input[type="submit"]
+{
+    border:none;
+    outline:none;
+    height:40px;
+    color:#fff;
+    background:#111;
+    cursor:pointer;
+    border-radius: 50px;
+}
